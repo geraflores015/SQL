@@ -1,0 +1,11 @@
+CREATE TABLE HM (id INTEGER PRIMARY KEY, name TEXT, quantity INTEGER);
+
+INSERT INTO H&M VALUES (1, "shirts", 5); 
+insert into H&M values (2, "pants", 4); 
+insert into H&M values (3, "hats", 3);
+insert into H&M values (4, "beanies", 2);
+insert into H&M values (5, "socks", 1);
+
+select * from H&M
+where quantity
+ORDER BY quantity desc;
